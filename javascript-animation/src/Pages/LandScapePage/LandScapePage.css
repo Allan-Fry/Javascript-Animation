@@ -1,5 +1,15 @@
 .Warp{
+   
+    padding:0px;
+    padding-right: var(--bs-gutter-x, 0rem);
+    padding-left: var(--bs-gutter-x, 0rem);
+ 
+}
+
+.Clipper{
     position: relative;
+    clip-path: view-box;
+    padding: 0px;
 }
 
 .TopImage{

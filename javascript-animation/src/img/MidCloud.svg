@@ -3,8 +3,8 @@
 
 <svg
    width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   height="80mm"
+   viewBox="0 0 297 80"
    version="1.1"
    id="svg862"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -24,14 +24,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.67081229"
-     inkscape:cx="690.95335"
-     inkscape:cy="322.74304"
+     inkscape:cx="512.06575"
+     inkscape:cy="442.00144"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     height="100mm" />
   <defs
      id="defs859">
     <inkscape:path-effect
