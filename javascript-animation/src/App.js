@@ -7,32 +7,15 @@ import {
 import { FirstPage } from './Pages/FirstPage/FirstPage';
 import { HomePage } from './Pages/HomePage/HomePage';
 import { LandScapePage } from './Pages/LandScapePage/LandScapePage';
-import { Container, Nav, Navbar, NavItem, NavLink } from 'reactstrap';
+//import { Container, Nav, Navbar, NavItem, NavLink } from 'reactstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import { NavBar } from './Componenrs/NavBar/NavBar';
 
 function App() {
   return (
     <Router>
-    <Container>
-      <Navbar color="light" light>
-        <Nav tabs>
-            <NavItem>
-              <NavLink href="/">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/FirstPage">
-                First Page
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/LandScape">
-                Land Scape
-              </NavLink>
-            </NavItem>
-        </Nav>
-        <Switch>
+      <NavBar />
+    <Switch>
           <Route path="/LandScape">
             <LandScapePage />
           </Route>
@@ -43,8 +26,6 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
-      </Navbar>
-    </Container>
   </Router>
   );
 }

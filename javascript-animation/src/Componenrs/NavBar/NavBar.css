@@ -1,0 +1,26 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F7F0;
+    padding: 25px 25px;
+}
+li{
+    display: inline-block;
+}
+
+
+a:link, a:visited{
+    background-color: #F3F7F0;
+    color: #F2545B;
+    text-decoration: none;
+    padding: 25px 25px;
+    text-align: center;
+}
+
+a:hover, a:active{
+    color: #f3f3f3;
+    background-color: #A93F55;
+    text-decoration: underline;
+    
+}

@@ -1,0 +1,17 @@
+
+.HomePageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #19323C;
+    background-color: #A93F55;
+}
+.Greating{
+    text-align: center;
+    font-weight: 300;  
+}
+.MessageBox{
+   background-color: #F3F7F0;
+   padding: 10% 15%;
+}
