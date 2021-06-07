@@ -7,9 +7,13 @@
 }
 
 .Clipper{
-    position: relative;
+  
     clip-path: view-box;
     padding: 0px;
+}
+
+.RealativeBox{
+    position: relative;
 }
 
 .TopImage{

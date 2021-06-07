@@ -21,13 +21,13 @@ export const LandScapePage = () =>{
 
     return(
         <Container className="Warp">
-           <Row>
+           <Row className="RealativeBox">
                 <Col>
                     <Media className="Clipper" alt="" scr={Bg1}></Media>
-                    {/* <Media className="TopImage" alt="The back most cloud" src={BackCloud} />
+                    <Media className="TopImage" alt="The back most cloud" src={BackCloud} />
                     <Media className="MidImage" alt="The middle most cloud" src={MidCloud} />
                     <Media className="FrontImage" alt="The front most cloud" src={FrontCloud} />
-                    <Media className="Mountains" alt="Background Mountains" src={Mountains} /> */}
+                    <Media className="Mountains" alt="Background Mountains" src={Mountains} />
                 </Col>
             </Row>
        </Container>
