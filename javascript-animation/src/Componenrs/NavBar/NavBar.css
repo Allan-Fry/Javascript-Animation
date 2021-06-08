@@ -1,16 +1,16 @@
-ul{
+ul.Nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #F3F7F0;
     padding: 25px 25px;
 }
-li{
+li.Nav{
     display: inline-block;
 }
 
 
-a:link, a:visited{
+a.Nav:link, a.Nav:visited{
     background-color: #F3F7F0;
     color: #F2545B;
     text-decoration: none;
@@ -18,7 +18,7 @@ a:link, a:visited{
     text-align: center;
 }
 
-a:hover, a:active{
+a.Nav:hover, a.Nav:active{
     color: #f3f3f3;
     background-color: #A93F55;
     text-decoration: underline;

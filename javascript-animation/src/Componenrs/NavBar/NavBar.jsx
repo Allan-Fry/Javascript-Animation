@@ -6,7 +6,7 @@ import './NavBar.css';
 export const NavBar = () =>{
 
     return(
-      <ul>
+      <ul className="Nav">
                <NavButton 
                pageName="Home" 
                pageAddress="/" 

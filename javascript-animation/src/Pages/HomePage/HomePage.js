@@ -1,22 +1,22 @@
 import React from 'react';
+import { LinkBox } from '../../Componenrs/LinkBox/LinkBox.jsx';
 import "./HomePage.css";
 export const HomePage = () => {
 
     return(
         <div className="HomePageContainer">
-            <div className="MessageBox">
+            <div className="MessageBox Col">
                     <h2 className="Greating">Welcome!</h2>
                     <p>This is a website for me to practic animating in JS!</p>
             </div>
-            <div>
-                <h3>
+            <div className="LinkBox Col">
+                <h3 className="LinkBox">
                     Usefull Links.
                 </h3>
-                <table>
-                    <tr>
-                       <th><a></a></th>
-                    </tr>
-                </table>
+                <LinkBox 
+                linkAddress="https://animejs.com/"
+                linkName="Anime.js"
+                ></LinkBox>
             </div>
         </div>
     );

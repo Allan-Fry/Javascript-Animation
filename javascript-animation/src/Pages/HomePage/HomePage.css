@@ -1,17 +1,34 @@
 
 .HomePageContainer{
-    display: flex;
+    display:flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     color: #19323C;
     background-color: #A93F55;
+    flex-direction:row;
 }
-.Greating{
-    text-align: center;
-    font-weight: 300;  
+.Col{
+    flex: 1;
+    padding: 10%;
+    margin: 5%;
 }
 .MessageBox{
-   background-color: #F3F7F0;
-   padding: 10% 15%;
+    background-color: #F3F7F0;
+ }
+ 
+.Greating{
+    text-align:center;
+    font-weight: 300;  
+    clear: both;
+}
+.LinkBox{
+    text-align: center;
+}
+div.LinkBox{
+    background-color: #F3F7F0;
+    clear: both;
+}
+h3.LinkBox{
+    color: #19323C;
+    font-weight: 300;
 }

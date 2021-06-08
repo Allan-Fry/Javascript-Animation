@@ -1,0 +1,11 @@
+
+.LinkStack{
+    flex-direction: column;
+}
+
+a.LinkBox:link, a.LinkBox:visited{
+    color: #f2545b;
+}
+a.LinkBox:hover{
+    color: #A93F55;
+}
