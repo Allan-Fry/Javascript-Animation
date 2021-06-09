@@ -3,8 +3,8 @@
     display:flex;
     justify-content: center;
     min-height: 100vh;
-    color: #19323C;
-    background-color: #A93F55;
+    color: var(--font-color-500);
+    background-color:var(--primary-color-500);
     flex-direction:row;
 }
 .Col{
@@ -13,7 +13,7 @@
     margin: 5%;
 }
 .MessageBox{
-    background-color: #F3F7F0;
+    background-color: var(--secondary-color-100);
  }
  
 .Greating{
@@ -25,10 +25,10 @@
     text-align: center;
 }
 div.LinkBox{
-    background-color: #F3F7F0;
+    background-color: var(--secondary-color-100);
     clear: both;
 }
 h3.LinkBox{
-    color: #19323C;
+    color: var(--font-color-500);
     font-weight: 300;
 }

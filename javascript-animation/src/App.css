@@ -1,3 +1,11 @@
+:root{
+  --primary-color-500: hsl(348, 46%, 45%);
+  --primary-color-300: hsl(348, 76%, 45%);
+  --font-color-500: hsl(197, 41%, 17%);
+  --secondary-color-100: hsl(94, 30%, 95%);
+}
+
+
 .App {
   text-align: center;
 }

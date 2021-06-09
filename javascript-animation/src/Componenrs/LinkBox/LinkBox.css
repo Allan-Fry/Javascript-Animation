@@ -4,8 +4,8 @@
 }
 
 a.LinkBox:link, a.LinkBox:visited{
-    color: #f2545b;
+    color: var(--primary-color-300);
 }
 a.LinkBox:hover{
-    color: #A93F55;
+    color: var(--primary-color-500);
 }

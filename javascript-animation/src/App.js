@@ -8,14 +8,14 @@ import { FirstPage } from './Pages/FirstPage/FirstPage';
 import { HomePage } from './Pages/HomePage/HomePage';
 import { LandScapePage } from './Pages/LandScapePage/LandScapePage';
 //import { Container, Nav, Navbar, NavItem, NavLink } from 'reactstrap';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from './Componenrs/NavBar/NavBar';
+import { Footer } from './Componenrs/Footer/Footer';
 
 function App() {
   return (
     <Router>
       <NavBar />
-    <Switch>
+      <Switch>
           <Route path="/LandScape">
             <LandScapePage />
           </Route>
@@ -26,6 +26,7 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
+        <Footer />
   </Router>
   );
 }

@@ -7,20 +7,30 @@ ul.Nav{
 }
 li.Nav{
     display: inline-block;
+    vertical-align:top;
 }
 
 
 a.Nav:link, a.Nav:visited{
-    background-color: #F3F7F0;
-    color: #F2545B;
+    background-color: var(--secondary-color-100);
+    color: var(--primary-color-300);
     text-decoration: none;
     padding: 25px 25px;
     text-align: center;
 }
 
 a.Nav:hover, a.Nav:active{
-    color: #f3f3f3;
-    background-color: #A93F55;
+    color: var(--secondary-color-100);
+    background-color: var(--primary-color-300);
     text-decoration: underline;
     
+}
+
+.Logo{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    vertical-align:top;
 }
