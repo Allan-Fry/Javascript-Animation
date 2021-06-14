@@ -1,5 +1,5 @@
 
-.HomePageContainer{
+.LinkPageContainer{
     display:flex;
     justify-content: center;
     min-height: 100vh;
@@ -7,19 +7,18 @@
     background-color:var(--primary-color-500);
     flex-direction:row;
 }
-.Col{
-    flex: 1;
-    padding: 10%;
-    margin: 5%;
+
+
+
+
+.LinkBox{
+    text-align: center;
 }
-.MessageBox{
+div.LinkBox{
     background-color: var(--secondary-color-100);
-    max-width: 400px;
- }
- 
-.Greating{
-    text-align:center;
-    font-weight: 300;  
     clear: both;
 }
-
+h3.LinkBox{
+    color: var(--font-color-500);
+    font-weight: 300;
+}

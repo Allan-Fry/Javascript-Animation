@@ -1,0 +1,10 @@
+.Graphic{
+    /* fill: black; */
+    opacity:1;
+    stroke:none;
+    stroke-width:13.8267;
+    fill: var(--font-color-500); 
+    border:none;
+    width: 20%;
+    height: auto;
+}

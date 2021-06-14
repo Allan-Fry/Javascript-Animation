@@ -19,7 +19,11 @@ export const NavBar = () =>{
                <NavButton 
                pageName="Land Scape" 
                pageAddress="/LandScape" 
-               />         
+               />  
+               <NavButton 
+               pageName="Links" 
+               pageAddress="/Links" 
+               />        
       </ul>
      
     );

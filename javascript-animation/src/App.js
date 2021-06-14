@@ -10,6 +10,7 @@ import { LandScapePage } from './Pages/LandScapePage/LandScapePage';
 //import { Container, Nav, Navbar, NavItem, NavLink } from 'reactstrap';
 import { NavBar } from './Componenrs/NavBar/NavBar';
 import { Footer } from './Componenrs/Footer/Footer';
+import { LinkPage } from './Pages/LinkPage/LinkPage';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/FirstPage">
             <FirstPage />
+          </Route>
+          <Route path="/Links">
+            <LinkPage />
           </Route>
           <Route path="/">
             <HomePage />
