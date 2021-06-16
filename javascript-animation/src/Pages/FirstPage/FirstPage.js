@@ -5,7 +5,7 @@ import './FirstPage.css';
 
 anime({
     targets: '.squire',
-    translateX: 250,
+    translateX: 350,
     rotateZ: 360,
     scale: 3,
     duration: 5000,
